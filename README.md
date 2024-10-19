@@ -15,5 +15,6 @@ Este projeto utiliza um **Arduino** e um **sensor de turbidez** para monitorar a
 - Exibição dos dados em tempo real em uma página web.
 - Interface web amigável para visualização dos dados históricos.
 
-## Estrutura do Projeto
+![Imagem do WhatsApp de 2024-10-19 à(s) 14 54 41_eb9a7f46](https://github.com/user-attachments/assets/5d52a9f5-32bc-4558-aa1e-058f1a1dff60)
+
 
