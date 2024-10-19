@@ -32,23 +32,26 @@ Este projeto utiliza um **Arduino** com sensor de pH e turbidez para monitorar a
 ### 2. Configuração do Ambiente Python
 
 1. Certifique-se de ter o **Python 3.x** instalado.
-2. Instale as dependências necessárias:
+   
+3. Instale as dependências necessárias:
    ```bash
    pip install flask mysql-connector-python pyserial
 
-3. Configure o banco de dados MySQL:
-
-  - Crie um banco de dados chamado banco_agua.
-  - Crie uma tabela dados com as colunas ph, turbidez e data_hora.
-4. Execute o script Python serial_to_mysql.py para começar a coletar dados da porta serial e armazená-los no banco de dados:
-
-python3 python_script/serial_to_mysql.py
+4. Configure o banco de dados MySQL:
+    - Crie um banco de dados chamado banco_agua.
+    - Crie uma tabela dados com as colunas ph, turbidez e data_hora.
+      
+5. Execute o script Python serial_to_mysql.py para começar a coletar dados da porta serial e armazená-los no banco de dados:
+   ```
+   python3 python_script/serial_to_mysql.py
+   ```
 
 ### 3. Executando a Aplicação Flask
 
 1. Na pasta web_app, execute o servidor Flask:
-
-  `python3 app.py`
+   ```
+   python3 app.py
+   ```
 
 Abra o navegador e acesse http://localhost:3000 para visualizar os dados da qualidade da água em tempo real.
 
