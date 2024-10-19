@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status da Água</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+    
+    <script type="text/javascript">
+        function recarregarPagina() {
+            setTimeout(function () {
+                location.reload();
+            }, 1000);}
+        window.onload = recarregarPagina;
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Monitoramento da qualidade da água</h1>
+    </header>
+
+    <div class="container">
+        <div class="bebedouro">
+            <img src="../static/img/bebedouro.png" alt="Bebedouro">
+        </div>
+        <div class="card", style="background-color: {{cor}};">
+            
+            <div class="conteudo">
+                <section>
+                    <h1>Bebedouro - Segundo Andar Prédio Info</h1>
+                    <div class="dados-table">
+                        <table>
+                            <tr>
+                                <th><img src="../static/img/ph_9306420.png" alt="Ph Icon"> Ph:</th>
+                                <td>{{ph}}</td>
+                            </tr>
+                            <tr>
+                                <th><img src="../static/img/clean-water_8977838.png" alt="Turbidez Icon"> Turbidez:</th>
+                                <td>{{turbidez}}</td>
+                            </tr>
+                            <tr>
+                                <th>Última medição feita: </th>
+                                <td>{{data}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p>{{mensagem}}</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
