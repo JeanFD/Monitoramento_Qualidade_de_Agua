@@ -53,8 +53,16 @@ Este projeto utiliza um **Arduino** com sensor de pH e turbidez para monitorar a
    python3 app.py
    ```
 
+## Futuras Melhorias
+- Adicionar gráficos para monitorar a evolução dos dados ao longo do tempo.
+- Implementar um sistema de alertas para avisar quando a qualidade da água estiver fora dos padrões.
+- Permitir a configuração de limites de pH e turbidez diretamente pela interface web.
+
 Abra o navegador e acesse http://localhost:3000 para visualizar os dados da qualidade da água em tempo real.
 
 ![Imagem do WhatsApp de 2024-10-19 à(s) 14 54 41_eb9a7f46](https://github.com/user-attachments/assets/5d52a9f5-32bc-4558-aa1e-058f1a1dff60)
+
+![Imagem do WhatsApp de 2024-10-19 à(s) 14 56 04_6231089d](https://github.com/user-attachments/assets/be55e139-fe1c-475e-bafb-8c68390edbac)
+
 
 
